@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hfc68BPJQpo7DnVKgQJm/NQRbkoEE0yY9PA7gYn54ks=",
+  "Source": "BagAPI",
+  "BasePath": "_content/BagAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

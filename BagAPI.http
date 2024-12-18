@@ -1,0 +1,85 @@
+@BagAPI_HostAddress = http://localhost:5003
+
+
+### USERS
+
+POST  {{BagAPI_HostAddress}}/login
+Content-Type: application/json
+
+{
+    "email":"johndoe55@example.com",
+    "password":"password1231"
+}
+
+###
+
+GET {{BagAPI_HostAddress}}/users/
+Accept: application/json
+
+###
+POST {{BagAPI_HostAddress}}/users
+Content-Type: application/json
+
+{
+    "id": "12",
+    "name": "John Doe1",
+    "email": "johndoe55@example.com12",
+    "gender": "Male",
+    "password": "password123"
+}
+
+###
+GET {{BagAPI_HostAddress}}/users/12
+
+###
+PUT {{BagAPI_HostAddress}}/users/12
+Content-Type: application/json
+
+{
+    "name": "John Doe1",
+    "email": "johndoe55@example.com12",
+    "gender": "Male",
+    "password": "password123"
+}
+
+###
+DELETE {{BagAPI_HostAddress}}/users/12
+
+
+### Products
+
+
+GET {{BagAPI_HostAddress}}/products/
+
+###
+POST {{BagAPI_HostAddress}}/products
+Content-Type: application/json
+
+{
+    "id": "1",
+    "name": "Proudct 1",
+    "price": 100,
+    "category": "Electronics",
+    "description": "This is a product description"
+}
+
+
+###
+GET {{BagAPI_HostAddress}}/products/1
+
+
+###
+PUT {{BagAPI_HostAddress}}/products/1
+Content-Type: application/json
+
+{
+    "name": "Proudct 1",
+    "price": 100,
+    "category": "Electronics",
+    "description": "This is a product description"
+}
+
+
+###
+DELETE {{BagAPI_HostAddress}}/products/1
+
