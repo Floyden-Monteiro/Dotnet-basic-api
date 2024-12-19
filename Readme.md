@@ -83,5 +83,8 @@ Authorization: Bearer <your_token>
 - List of migrations: `dotnet ef migrations list`
 - Add table to database: `dotnet ef migrations add AddProductTable`
 
+## Postman Documentation
+For detailed API documentation and testing, you can use the Postman collection available [here](https://documenter.getpostman.com/view/40139824/2sAYJ1mhbX).
+
 
 
